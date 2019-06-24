@@ -28,8 +28,7 @@ module.exports = {
                 }, this.log.error);
         },
         'page:before': function(page) {
-            // append to the website renderer only
-            if (this.output.name !== 'website' || !hasFooterFile) return page;
+            if (!hasFooterFile) return page;
             page.content = page.content + '\n{% localizedfooter %}' + footerString + '{% endlocalizedfooter%}';
             return page;
         }

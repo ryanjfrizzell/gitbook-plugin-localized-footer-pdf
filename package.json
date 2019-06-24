@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-localized-footer",
-  "version": "0.3.1",
+  "name": "gitbook-plugin-localized-footer-pdf",
+  "version": "0.0.1",
   "engines": {
     "gitbook": ">=3.1.0"
   },
@@ -23,14 +23,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "noerw",
+  "author": "ryanjfrizzell",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/noerw/gitbook-plugin-localized-footer.git"
+    "url" : "https://github.com/noerw/gitbook-plugin-localized-footer-pdf.git"
   },
   "bugs": {
-    "url": "https://github.com/noerw/gitbook-plugin-localized-footer/issues"
+    "url": "https://github.com/noerw/gitbook-plugin-localized-footer-pdf/issues"
   },
-  "homepage": "https://github.com/noerw/gitbook-plugin-localized-footer#readme",
+  "homepage": "https://github.com/noerw/gitbook-plugin-localized-footer-pdf",
   "license": "LGPL-3.0"
 }
